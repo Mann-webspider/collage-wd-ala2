@@ -17,7 +17,7 @@ let tl = gsap.timeline({
       start: "bottom top",
       end: "bottom top",
       scrub: true,
-      markers:true,
+      
       id: "scrub"
     } ,
     scrollTrigger: {
@@ -25,7 +25,7 @@ let tl = gsap.timeline({
       start: "top bottom",
       end: "bottom top",
       scrub: true,
-      markers:true,
+      
       id: "scrub"
     } 
   })
